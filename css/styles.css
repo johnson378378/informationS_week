@@ -140,10 +140,12 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
+    color: #000080;
 }
 @media (min-width: 1200px) {
   h3, .h3 {
     font-size: 1.75rem;
+    color: #000080;
   }
 }
 
@@ -309,7 +311,7 @@ svg {
 }
 
 table {
-  caption-side: bottom;
+  caption-side: left;
   border-collapse: collapse;
 }
 
@@ -1291,11 +1293,11 @@ progress {
   }
   .col-lg-7 {
     flex: 0 0 auto;
-    width: 58.33333333%;
+    width: 78.33333333%;
   }
   .col-lg-8 {
     flex: 0 0 auto;
-    width: 66.66666667%;
+    width: 76.66666667%;
   }
   .col-lg-9 {
     flex: 0 0 auto;
@@ -1460,7 +1462,7 @@ progress {
   }
   .col-xl-7 {
     flex: 0 0 auto;
-    width: 58.33333333%;
+    width: 77.33333333%;
   }
   .col-xl-8 {
     flex: 0 0 auto;
@@ -1504,7 +1506,7 @@ progress {
     margin-left: 50%;
   }
   .offset-xl-7 {
-    margin-left: 58.33333333%;
+    margin-left: 48.33333333%;
   }
   .offset-xl-8 {
     margin-left: 66.66666667%;
@@ -5696,7 +5698,7 @@ textarea.form-control-lg {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   color: #fff;
-  text-align: center;
+  text-align: left;
 }
 
 .carousel-dark .carousel-control-prev-icon,
@@ -10711,7 +10713,7 @@ header.masthead .site-heading .subheading {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead .post-heading h1, header.masthead .post-heading .h1 {
-  font-size: 2.25rem;
+  font-size: 3.25rem;
 }
 header.masthead .post-heading .meta,
 header.masthead .post-heading .subheading {
@@ -10741,20 +10743,21 @@ header.masthead .post-heading .meta a {
   header.masthead .page-heading h1, header.masthead .page-heading .h1,
   header.masthead .site-heading h1,
   header.masthead .site-heading .h1 {
-    font-size: 5rem;
+    font-size: 6rem;
   }
   header.masthead .post-heading h1, header.masthead .post-heading .h1 {
-    font-size: 3.5rem;
+    font-size: 5.5rem;
   }
   header.masthead .post-heading .subheading {
-    font-size: 1.875rem;
+    font-size: 2.875rem;
   }
 }
 
 .section-heading {
-  font-size: 2.25rem;
-  font-weight: 700;
+  font-size: 2.85rem;
+  font-weight: 1000;
   margin-top: 3.75rem;
+  color: #696969;
 }
 
 .caption {
@@ -10763,7 +10766,7 @@ header.masthead .post-heading .meta a {
   display: block;
   margin: 0;
   padding: 0.625rem;
-  text-align: center;
+  text-align: left;
 }
 
 .post-preview > a {
