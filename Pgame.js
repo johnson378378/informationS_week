@@ -14,7 +14,7 @@ function startGame() {
         // 第二次要求輸入至少10位，且包含數字、英文大小寫及特殊符號的密碼
         message.innerText = '不錯!!!這密碼強度很夠，來吧給你答案 Answer3 : A';
     } else {
-        message.innerText = isSecondAttempt ? '7位數字太容易被破解，請使用(輸入)10位以上包含數字+小寫英文+大寫英文+特殊符號的高強度密碼' : '請輸入7位數字密碼(純數字)';
+        message.innerText = isSecondAttempt ? '你現在輸入的密碼太容易被破解，請使用(輸入)<font color="#FF0000">10位以上包含數字+小寫英文+大寫英文+特殊符號的高強度密碼</font>' : '請輸入7位數字密碼(純數字)';
     }
 }
 
